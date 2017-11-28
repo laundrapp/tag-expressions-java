@@ -4,7 +4,7 @@
 
     <groupId>io.cucumber</groupId>
     <artifactId>tag-expressions</artifactId>
-    <version>1.1.0</version>
+    <version>1.1.1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Cucumber Tag Expressions</name>
     <description>Parses boolean infix expressions</description>
@@ -26,7 +26,7 @@
         <connection>scm:git:git://github.com/cucumber/tag-expressions-java.git</connection>
         <developerConnection>scm:git:git@github.com:cucumber/tag-expressions-java.git</developerConnection>
         <url>git://github.com/cucumber/tag-expressions-java.git</url>
-        <tag>v1.1.0</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <dependencies>
