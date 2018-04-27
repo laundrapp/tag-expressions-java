@@ -27,7 +27,7 @@
 
 #pragma mark Public
 
-- (instancetype)init;
+- (instancetype __nonnull)init;
 
 - (id<IoCucumberTagexpressionsExpression>)parseWithNSString:(NSString *)infix;
 

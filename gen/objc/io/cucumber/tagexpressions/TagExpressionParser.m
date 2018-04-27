@@ -315,7 +315,7 @@ J2OBJC_INITIALIZED_DEFN(IoCucumberTagexpressionsTagExpressionParser)
 @implementation IoCucumberTagexpressionsTagExpressionParser
 
 J2OBJC_IGNORE_DESIGNATED_BEGIN
-- (instancetype)init {
+- (instancetype __nonnull)init {
   IoCucumberTagexpressionsTagExpressionParser_init(self);
   return self;
 }
@@ -550,7 +550,7 @@ IoCucumberTagexpressionsTagExpressionParser_TokenType *IoCucumberTagexpressionsT
       @"OPERAND", @"OPERATOR",
     };
     for (jint i = 0; i < 2; i++) {
-      (IoCucumberTagexpressionsTagExpressionParser_TokenType_values_[i] = e = objc_constructInstance(self, (void *)ptr), ptr += objSize);
+      ((void)(IoCucumberTagexpressionsTagExpressionParser_TokenType_values_[i] = e = objc_constructInstance(self, (void *)ptr)), ptr += objSize);
       IoCucumberTagexpressionsTagExpressionParser_TokenType_initWithNSString_withInt_(e, names[i], i);
     }
     J2OBJC_SET_INITIALIZED(IoCucumberTagexpressionsTagExpressionParser_TokenType)
@@ -606,7 +606,7 @@ IoCucumberTagexpressionsTagExpressionParser_Assoc *IoCucumberTagexpressionsTagEx
       @"LEFT", @"RIGHT",
     };
     for (jint i = 0; i < 2; i++) {
-      (IoCucumberTagexpressionsTagExpressionParser_Assoc_values_[i] = e = objc_constructInstance(self, (void *)ptr), ptr += objSize);
+      ((void)(IoCucumberTagexpressionsTagExpressionParser_Assoc_values_[i] = e = objc_constructInstance(self, (void *)ptr)), ptr += objSize);
       IoCucumberTagexpressionsTagExpressionParser_Assoc_initWithNSString_withInt_(e, names[i], i);
     }
     J2OBJC_SET_INITIALIZED(IoCucumberTagexpressionsTagExpressionParser_Assoc)

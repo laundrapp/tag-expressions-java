@@ -10,8 +10,8 @@
 
 @implementation IoCucumberTagexpressionsTagExpressionException
 
-- (instancetype)initWithNSString:(NSString *)message
-               withNSObjectArray:(IOSObjectArray *)args {
+- (instancetype __nonnull)initWithNSString:(NSString *)message
+                         withNSObjectArray:(IOSObjectArray *)args {
   IoCucumberTagexpressionsTagExpressionException_initWithNSString_withNSObjectArray_(self, message, args);
   return self;
 }
